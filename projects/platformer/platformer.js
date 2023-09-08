@@ -51,7 +51,9 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    createPlatform(x,y,width,height)
+    createPlatform(200,570,200,20)
+    createPlatform(600,100,200,10000)
+    createPlatform(550,570,200,20)
 
 
     
