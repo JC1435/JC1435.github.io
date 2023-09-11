@@ -3,7 +3,7 @@ const walkAcceleration = 8.5; // how much is added to the speed each frame
 const gravity = 0.5; // how much is subtracted from speedY each frame
 const friction = 1.5; // how much the player is slowed each frame
 const maxSpeed = 10; // maximum horizontal speed, not vertical
-const playerJumpStrength = 15; // this is subtracted from the speedY each jump
+const playerJumpStrength = 14; // this is subtracted from the speedY each jump
 const projectileSpeed = 8; // the speed of projectiles
 
 /////////////////////////////////////////////////

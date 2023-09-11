@@ -51,10 +51,13 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    createPlatform(200,570,200,20)
+    createPlatform(200,625,200,20)
     createPlatform(600,100,200,10000)
     createPlatform(550,570,200,20)
-
+    createPlatform(325,425,20,20)
+    createPlatform(110,320,20,20)
+    createPlatform(175,125,20,20)
+    createPlatform(400,210,125,20)
 
     
     // TODO 2
@@ -62,8 +65,8 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-
-
+    createCollectable(datastat,210,505,0.5,2)
+    createCollectable(face2,210,525,0.5,2)
 
 
     // TODO 3
