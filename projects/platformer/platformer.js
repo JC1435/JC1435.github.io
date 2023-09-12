@@ -58,15 +58,15 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     createPlatform(110,320,20,20)
     createPlatform(175,125,20,20)
     createPlatform(400,210,125,20)
-
+    createplatform(1100,210,125,20)
     
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable(datastat,210,505,0.5,2)
-    createCollectable(face2,210,525,0.5,2)
+    createCollectable('database',1200,0,0,2)
+    
 
 
     // TODO 3
@@ -74,7 +74,7 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
+    createcannon(right,2,1000,230,300)
 
 
 
