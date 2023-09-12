@@ -51,14 +51,14 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    createPlatform(200,625,200,20)
-    createPlatform(600,100,200,10000)
-    createPlatform(550,570,200,20)
-    createPlatform(325,425,20,20)
-    createPlatform(110,320,20,20)
-    createPlatform(175,125,20,20)
-    createPlatform(400,210,125,20)
-    createplatform(1100,210,125,20)
+    createPlatform(200,625,200,20);
+    createPlatform(600,100,200,10000);
+    createPlatform(550,570,200,20);
+    createPlatform(325,425,20,20);
+    createPlatform(110,320,20,20);
+    createPlatform(175,125,20,20);
+    createPlatform(400,210,125,20);
+    createPlatform(800,625,125,20);
     
     // TODO 2
     // Create collectables
@@ -74,7 +74,7 @@ createCollectable("steve", 200, 190, 6, 0.7); //your example function call
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createcannon(right,2,1000,230,300)
+    createCannon('right',600,1000,230,300)
 
 
 
